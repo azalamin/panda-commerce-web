@@ -9,7 +9,7 @@
 </head>
 <body>
    <header>
-      <div class="container">
+      <div class="container mb-5" id="home">
          <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
             <a href="#"><img src="images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,22 +18,194 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav ms-3">
                   <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Shoes</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Backpack</a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Subscribe</a></li>
+                  <li class="nav-item"><a href="#shoes" class="nav-link">Shoes</a></li>
+                  <li class="nav-item"><a href="#backpack" class="nav-link">Backpack</a></li>
+                  <li class="nav-item"><a href="#subscribe" class="nav-link">Subscribe</a></li>
                </ul>
             </div>
          </nav>
       </div>
+      <div id="carouselExampleControls" class="carousel slide container py-5" data-bs-ride="carousel">
+         <div class="carousel-inner bg-carosel p-3">
+           <div class="carousel-item active">
+             <div class="row align-items-center">
+                <div class="col-md-7 ps-5">
+                  <h1>Mega LCD TV For Sports</h1>
+                  <p class="slide-descip">This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                  <h1 class="price">$1200</h1>
+                  <a class="buy-now-btn" href="#">Buy Now</a>
+                </div>
+                <div class="col md-5">
+                  <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                </div>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <div class="row align-items-center">
+               <div class="col-md-7 ps-5">
+                  <h1>Cool Dude Headphone</h1>
+                  <p class="slide-descip">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                  <h1 class="price">$420</h1>
+                  <a class="buy-now-btn" href="#">Buy Now</a>
+                </div>
+                <div class="col-md-5">
+                  <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                </div>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <div class="row align-items-center">
+               <div class="col-md-7 ps-5">
+                  <h1>X-Box for your living room</h1>
+                  <p class="slide-descip">This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                  <h1 class="price">$600</h1>
+                  <a class="buy-now-btn" href="#">Buy Now</a>
+                </div>
+                <div class="col-md-5">
+                  <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                </div>
+             </div>
+           </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </a>
+       </div>
    </header>
-
-
-
-
-
-
-
-   
+   <main class="container">
+      <section class="overflow-hidden my-5">
+         <div class="row gx-5 gy-3 text-white">
+            <div class="col-md-4">
+               <div class="watch d-flex justify-content-between align-items-center">
+                  <h1>Watch</h1>
+                  <div class="product-item">
+                     <img class="" src="images/categories/watch.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="bag d-flex justify-content-between align-items-center">
+                  <h1>Bag</h1>
+                  <div class="product-item">
+                     <img class="" src="images/categories/bag.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="shoes d-flex justify-content-between align-items-center">
+                  <h1>Shoes</h1>
+                  <div class="product-item">
+                     <img class="" src="images/categories/shoes.png" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="py-5 mt-5" id="shoes">
+         <div class="row gy-4">
+            <h3>Shoes</h3>
+            <div class="col-md-4">
+              <div class="card py-2 border-0">
+                 <img class="card-img-top" src="images/shoes/shoe-1.png" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                  <h5 class="mb-3">$120</h5>
+                  <a href="#" class="buy-now-btn">Buy Now >></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card py-2 border-0">
+                  <img class="card-img-top" src="images/shoes/shoe-2.png" alt="">
+                 <div class="card-body">
+                   <h5 class="card-title">Nike 360</h5>
+                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                   <h5 class="mb-3">$320</h5>
+                   <a href="#" class="buy-now-btn">Buy Now >></a>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-4">
+               <div class="card py-2 border-0">
+                  <img class="card-img-top" src="images/shoes/shoe-3.png" alt="">
+                 <div class="card-body">
+                   <h5 class="card-title">Red Airmax</h5>
+                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                   <h5 class="mb-3">$350</h5>
+                   <a href="#" class="buy-now-btn">Buy Now >></a>
+                 </div>
+               </div>
+             </div>
+          </div>
+      </section>
+      <section class="py-5" id="backpack">
+         <div class="row gy-4">
+            <h3>Backpack</h3>
+            <div class="col-md-4">
+              <div class="card py-3 border-0 h-100">
+                 <img class="card-img-top" src="images/bags/bag-1.png" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Red Standard Bag</h5>
+                  <h5 class="mb-2">$120</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                  <a href="#" class="buy-now-btn">Buy Now >></a>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card py-3 border-0 h-100">
+                  <img class="card-img-top" src="images/bags/bag-2.png" alt="">
+                  <div class="card-body">
+                     <h5 class="card-title">Sky Affordable Bag</h5>
+                     <h5 class="mb-2">$320</h5>
+                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="card-footer bg-white border-0">
+                     <a href="#" class="buy-now-btn">Buy Now >></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card py-3 border-0 h-100">
+                  <img class="card-img-top" src="images/bags/bag-3.png" alt="">
+                  <div class="card-body">
+                     <h5 class="card-title">Black Pretty Bag</h5>
+                     <h5 class="mb-2">$169</h5>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                  </div>
+                  <div class="card-footer bg-white border-0">
+                     <a href="#" class="buy-now-btn">Buy Now >></a>
+                  </div>
+               </div>
+            </div>
+          </div>
+      </section>
+      <section class="mt-3 py-5" id="subscribe">
+         <div class="row">
+            <div class="col py-5 Submit-area">
+               <div class="m-auto py-3 lets-touch">
+                  <h3>LET'S STAY IN TOUCH</h3>
+                  <p>Get updates on sales, specials and more</p>
+                  <form action="">
+                     <input class="form-control mb-2 w-100" type="text">
+                     <button class="buy-now-btn">SUBMIT</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>   
+   <footer>
+      <p class="text-center">©2020. Panda Commerce. All rights reserved. az-alamin, Rajbari.</p>
+   </footer>
    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

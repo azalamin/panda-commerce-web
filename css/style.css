@@ -1,0 +1,61 @@
+.bg-carosel{
+   background-color: #feeae9;
+   border-radius: 10px;
+}
+.watch{
+   background-color: orange;
+}
+.bag{
+   background-color: orchid;
+}
+.shoes{
+   background-color: blue;
+}
+.product-item img{
+   width: 100px;
+   vertical-align: middle;
+}
+.watch, .bag, .shoes {
+   padding: 60px 25px;
+   border-radius: 10px;
+   height: 100px;
+}
+.buy-now-btn{
+   background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   padding: 9px 25px;
+   cursor: pointer;
+   /* font-size: 20px; */
+   text-decoration: none;
+}
+.buy-now-btn:hover{
+   color: white;
+   background-image: linear-gradient(to bottom, #FF589B 0%, #e20057 100%);
+   color: #fff;
+}
+.slide-descip{
+   font-size: 15px;
+}
+.price{
+   color: #FF136F;
+}
+.card {
+   border-radius: 10px;
+   box-shadow: 5px 5px 8px lightgrey;
+}
+.Submit-area{
+   background-color: #feeae9;
+   border-radius: 10px;
+}
+.lets-touch{
+   width: 290px;
+}
+.Submit-area p{
+   font-weight: 600;
+   color: gray;
+}
+footer p{
+   font-size: 12px;
+}
